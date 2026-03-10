@@ -1,28 +1,16 @@
-\# Simple Traffic Light Controller -- ESP32 WROOM
+# ESP32 Simple Traffic Light Controller 
 
+## Overview
+This project implements a two way street traffic light controller using an ESP32, button inputs simulating vehicles from two directions, and LED outputs representing the traffic lights in two directions.
 
-This project implements a simple two way street Traffic Light controller using an ESP32.
-
-
-
-Features:
-
-Software:
-
--Finite State Machine
-
--GPIO LED usage
-
--Button For input detection (imitates a car at in that direction)
-
+## HardWare
+-ESP32 WROOM
+-2 push buttons (North/East)
+-6 LEDs
+-GPIO
+## Software:
+-table-driven Moore Finite State Machine
 -FreeRTOS
 
 
-
-Hardware:
--ESP32 WROOM 32
-
--LEDs (stoplights)
-
--Button(cars)
 
