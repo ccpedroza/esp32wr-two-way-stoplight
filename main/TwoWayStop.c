@@ -11,7 +11,7 @@ void periph_init(void);
 void app_main(void)
 {
 	Int_St *Pt;
-	Pt=&TwoWayStop[0];
+	Pt=&TwoWayStop[4];
 
 	periph_init();
 	

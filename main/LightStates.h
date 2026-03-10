@@ -18,6 +18,6 @@ typedef const struct Intersection_State Int_St;
 
 
 
-extern Int_St TwoWayStop[4];
+extern Int_St TwoWayStop[5];
 
 #endif /* MAIN_LIGHTSTATES_H_ */

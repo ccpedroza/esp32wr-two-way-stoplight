@@ -26,22 +26,22 @@ int getButtonState(void)
 		case 0:
 			if(East==0)
 			{
-				return 0;
+				return 3;
 			}
 			else 
 			{
-				return 1;
+				return 2;
 			}
 		case 1:
 			if(East==0)
 			{
-				return 2;
+				return 1;
 			}
 			else 
 			{
-				return 3;
+				return 0;
 			}
-		default:
+			default:
 			return 0;
 	}
 }

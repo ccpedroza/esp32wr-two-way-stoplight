@@ -8,8 +8,8 @@
 #ifndef MAIN_BUTTON_H_
 #define MAIN_BUTTON_H_
 
-#define N_in		2
-#define E_in		4
+#define N_in		4
+#define E_in		2
 
 void Buttons_Init(void);
 int getButtonState();
